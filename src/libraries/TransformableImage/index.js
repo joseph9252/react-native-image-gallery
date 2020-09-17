@@ -30,7 +30,7 @@ export default class TransformableImage extends PureComponent {
         enableScale: true,
         enableTranslate: true,
         imageComponent: undefined,
-        resizeMode: 'contain'
+        resizeMode: 'cover'
     };
 
     constructor (props) {
